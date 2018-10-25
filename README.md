@@ -23,7 +23,7 @@ Calcula a distribuição esperada da lei de Benford.
 É criado um gráfico com uma linha azul (lei de Benford) e pontos vermelhos (dados reais). O título é "'Candidato N: XX" para os gráficos com os dados nacionais, "Candidato N: XX no estado: YY" com os dados estaduais, e "Candidato N: XX na regiao: YY" com os dados regionais. 
 Dentro do gráfico, temos um valor de sigma, que é a distância média dos pontos para a linha azul. Se sigma = 2%, isso quer dizer que os pontos vermelhos estão, em média, 2% a mais ou a menos do que o esperado. Por exemplo, o digito '5' deve aparecer com 8% de probabilidade. Com sigma = 2%, o ponto vermelho deve estar entre 6% e 10%.
 No total, são criados 442 gráficos: 1 Nacional, 5 Regionais, 26 estaduais, 1 Distrito Federal e 1 Exterior, para cada candidato.
-Temos também um gráfico com os valores de sigma para cada candidato em cada estado e outro com os valores para o Brasil e para as regiões. Se sigma é menor do que 3, o ponto é azul. Se entre 3 e 10, é verde. Se maior do que 10, o ponto é vermelho. Assim podemos ver o quanto cada dupla (candidato,estado) se aproximou do modelo matemático. Os estados estão em ordem pelo número de zonas eleitorais.
+Temos também um gráfico com os valores de sigma para cada candidato em cada estado e outro com os valores para o Brasil e para as regiões. Se sigma é menor do que 3, o ponto é azul. Se entre 3 e 6, é verde. Se entre 6 e 9, o ponto é amarelo. Se maior do que 9, o ponto é vermelho. Assim podemos ver o quanto cada dupla (candidato,estado) se aproximou do modelo matemático. Os estados estão em ordem pelo número de zonas eleitorais em 2018.
 Os gráficos são salvos na pasta 'imagens/'.
 
 Avaliação dos resultados:
