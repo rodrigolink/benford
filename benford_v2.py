@@ -37,7 +37,10 @@ cidades=set([])
 #lista com Numero dos Candidatos
 candidatos=set([])
 #lista com estados
-estados=['RR','AC','AP','DF','SE','RO','TO','AL','MS','ES','MT','AM','RN','PB','PI','GO','SC','PA','MA','CE','PE','RJ','RS','ZZ','PR','BA','MG','SP']
+if ano ==2010:
+    estados=['RR','AC','AP','DF','SE','RO','VT','TO','AL','MS','ES','MT','AM','RN','PB','PI','GO','SC','PA','MA','CE','PE','RJ','RS','ZZ','PR','BA','MG','SP']
+else:
+    estados=['RR','AC','AP','DF','SE','RO','TO','AL','MS','ES','MT','AM','RN','PB','PI','GO','SC','PA','MA','CE','PE','RJ','RS','ZZ','PR','BA','MG','SP']
 
 #lista com regiao
 regioes={
