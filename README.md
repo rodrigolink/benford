@@ -27,14 +27,10 @@ Temos também um gráfico com os valores de sigma para cada candidato em cada es
 Os gráficos são salvos na pasta 'imagens/'.
 
 Avaliação dos resultados:
-Devemos lembrar que: "Se for um conjunto pequeno de valores ou se os valores forem muito próximos (poucas ordens de grandeza), a distribuição não vai seguir essa tendência." Vemos que os valores de sigma aumentam para os menores estados e para os candidatos com o menor número de votos. Quanto maior o conjunto de dados (SP, por exemplo), mais próximos os pontos vermelha estão da linha azul.
+Devemos lembrar que: "Se for um conjunto pequeno de valores ou se os valores forem muito próximos (poucas ordens de grandeza), a distribuição não vai seguir essa tendência." Vemos que os valores de sigma aumentam para os menores estados e para os candidatos com o menor número de votos. Quanto maior o conjunto de dados (SP, por exemplo), mais próximos os pontos vermelhos estão da linha azul.
 Se aparecer um sigma alto em um dos conjuntos grandes de dados, isso pode (pode, não deve) ser indicio de uma alteração dos dados. Se os pontos vermelhos para os números 7, 8 ou 9 estiver muito longe da reta azul, por exemplo.
 
 Lição aprendida: 
 O modelo matemático funciona para aquilo que ele se propõe: distribuição de muitos números em várias ordens de grandeza. Se isso não é verdade, o modelo não vai bater.
 
 "Não importa quão bonita é a sua teoria, não importa quão inteligente você é. Se não concorda com o experimento, está errado." - Richard P. Feynman 
-
-
-obs.:
-esse código foi um teste para saber se já consigo programar alguma coisa que preste em Python. Não deve estar otimizado e deve ter maneiras mais espertas de fazer. Aceito sugestões
