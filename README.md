@@ -13,7 +13,7 @@ According to the TSE: "Candidate data and election results from 1994 to 2002 are
 
 Output data:
 Exports graphs showing the distribution of the first digits of votes by electoral zone in each candidate.
-Generates a graph with national and regional data for each candidate (cand_XX.png) and one with data separated by state for each candidate (cand_XX_YY.png). The ZZ state points out the voting zones abroad.
+Generates a graph with national and regional data for each candidate (graf_XX.png) and one with data separated by state for each candidate (graf_XX_YY.png). The ZZ state points out the voting zones abroad.
 
 Script operation:
 It is necessary to inform the year (the input data has different columns in 2018) and the election round.
