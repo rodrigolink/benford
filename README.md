@@ -17,7 +17,7 @@ Generates a graph with national and regional data for each candidate (graf_XX.pn
 
 Script operation:
 It is necessary to inform the year (the input data has different columns in 2018) and the election round.
-For the desired year file, which is found in the 'data/' folder, it scans each line looking for the number AA of votes that the BB candidate received in the CC electoral zone, in the DD city and EE state.
+For the desired year file, which is found in the 'data/' folder, it scans each line looking forthe number AA of votes that candidate BB received in the CC electoral zone, in the DD city and EE state.
 Then, it creates for each candidate a counter that measures the number of times that each digit appears in each of the zones. One national sum, one sum for each state and one for each region of Brazil. To ease the comparison, this is normalized for each group, so that we have the percentage of times that each digit appeared and not the total number.
 Calculates the expected distribution of Benford's law.
 A graph is created with a blue line (Benford's law) and red dots (real data). The title is "'Candidate N: XX" for graphs with national data, "Candidate N: XX in state: YY" with state data, and "Candidate N: XX in region: YY" with regional data.
